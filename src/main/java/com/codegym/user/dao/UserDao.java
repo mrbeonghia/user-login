@@ -26,7 +26,6 @@ public class UserDao {
         u2.setPassword("1234");
         users.add(u2);
 
-
     }
 
     public static User checkLogin(Login login){
