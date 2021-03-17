@@ -26,13 +26,7 @@ public class UserDao {
         u2.setPassword("1234");
         users.add(u2);
 
-        User u3 = new User();
-        u3.setAge(16);
-        u3.setName("Mike");
-        u3.setAccount("mike");
-        u2.setEmail("mike@codegym.vn");
-        u3.setPassword("12345");
-        users.add(u3);
+
     }
 
     public static User checkLogin(Login login){
